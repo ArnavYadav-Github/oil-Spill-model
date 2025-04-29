@@ -24,19 +24,20 @@ This project is implemented in **Python** using **Jupyter Notebook**.
 To install all dependencies:
 pip install -r requirements.txt
 
-If requirements.txt is not available, manually install the required libraries:
+If requirements.txt is not available, 
+manually install the required libraries:
 pip install numpy pandas matplotlib seaborn opencv-python scikit-learn tensorflow keras scikit-image tqdm
 
 🔑 Key Libraries Used
 
 Library	Purpose
-numpy, pandas	Numerical operations & data handling
-matplotlib, seaborn	Visualization and plotting
-opencv-python	Image loading and preprocessing
-tensorflow, keras	Deep learning model architecture
-scikit-learn	Evaluation metrics
-skimage	Image transformation tools
-tqdm	Progress bar for loops
+numpy, pandas--	Numerical operations & data handling
+matplotlib, seaborn	-- Visualization and plotting
+opencv-- python	Image loading and preprocessing
+tensorflow, keras--	Deep learning model architecture
+scikit-learn--	Evaluation metrics
+skimage--	Image transformation tools
+tqdm	-- Progress bar for loops
 
 
 🗂️ Project Structure
@@ -50,15 +51,33 @@ tqdm	Progress bar for loops
 
 
 ▶️ How to Run the Project
+
 1. Clone the Repository
-git clone https://github.com/your-username/oil-spill-detection.git
-cd oil-spill-detection
+  1] First, download the project files to your local machine.
 
-3. Launch Jupyter Notebook
-jupyter notebook
+  2] Open a terminal (Command Prompt, PowerShell, or Terminal) and run:
+     git clone https://github.com/your-username/oil-spill-detection.git
+     This will create a folder named oil-spill-detection containing all project files.
 
-5. Open the Notebook
-Open oil-spill-detection-model.ipynb
+  3] Then move into the project directory:
+     cd oil-spill-detection
+
+2. Install Required Libraries
+ 1] Make sure you have Python installed (preferably version 3.7 or higher).
+
+ 2] It’s recommended to create a virtual environment (optional but good practice):
+    python -m venv venv
+
+ 3] Activate the virtual environment:
+
+    Windows:
+    venv\Scripts\activate
+
+    macOS/Linux:
+    source venv/bin/activate
+
+3.Now, install the required packages:
+pip install -r requirements.txt
 
 Run all cells in order to:
 ✅ Load and preprocess the image and mask data
